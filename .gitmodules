@@ -1,3 +1,9 @@
 [submodule "/home/azera/.dotfiles/zsh-plugins/zsh-autosuggestions"]
 	path = /home/azera/.dotfiles/zsh-plugins/zsh-autosuggestions
 	url = https://github.com/zsh-users/zsh-autosuggestions
+[submodule "zsh-plugins/zsh-autocomplete"]
+	path = zsh-plugins/zsh-autocomplete
+	url = https://github.com/marlonrichert/zsh-autocomplete
+[submodule "zsh-plugins/zsh-plugins/fast-syntax-highlighting"]
+	path = zsh-plugins/zsh-plugins/fast-syntax-highlighting
+	url = https://github.com/zdharma-continuum/fast-syntax-highlighting
