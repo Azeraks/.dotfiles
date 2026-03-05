@@ -1,0 +1,3 @@
+[submodule "/home/azera/.dotfiles/zsh-plugins/zsh-autosuggestions"]
+	path = /home/azera/.dotfiles/zsh-plugins/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions
