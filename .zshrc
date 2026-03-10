@@ -1,5 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export ZSH_CUSTOM="$HOME/.dotfiles/zsh-custom/plugins"
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -70,7 +71,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestion fast-syntax-highlighting zsh-autocomplete kitty colorize lol)
+plugins=(git zsh-autosuggestions fast-syntax-highlighting zsh-autocomplete kitty colorize lol)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -102,3 +103,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias mh="source ~/.zshrc"
+alias mhh="source ~/.dotfiles/config/kitty/kitty.conf"
+alias la="ls -a"
+alias icat="kitten icat"
