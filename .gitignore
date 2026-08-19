@@ -3,3 +3,7 @@
 *.swo
 undo/
 .netrwhist
+
+zsh-custom/plugins/plugins/fast-syntax-highlighting/
+zsh-custom/plugins/plugins/zsh-autocomplete/
+zsh-custom/plugins/plugins/zsh-autosuggestions/

@@ -73,6 +73,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions fast-syntax-highlighting zsh-autocomplete kitty colorize lol)
 
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=#ff00ff,bg=cyan,bold,underline"
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -108,3 +109,7 @@ alias mh="source ~/.zshrc"
 alias mhh="source ~/.dotfiles/config/kitty/kitty.conf"
 alias la="ls -a"
 alias icat="kitten icat"
+alias vim=nvim
+alias cls=clear
+
+module load mpi/openmpi-x86_64
